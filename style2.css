@@ -1,0 +1,146 @@
+body{
+    background-image:url("Earth.jpg");
+    margin:0;
+    background-color:rgb(245, 246, 247);
+    font-family: Verdana;
+    font-weight: 300;
+}
+
+.container{
+    width: 60%;
+    margin:0 auto;
+}
+
+header{
+    background-color:rgb(223, 238, 194);
+}
+
+header::after{
+    content: " ";
+    display:table;
+    clear:both;
+}
+
+#logo{
+    float:flex;
+    padding: 10px 0;
+    text-align:center;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    position: relative;
+}
+ nav a{
+     color:blue;
+     text-decoration:none;
+     font-size: 16px;
+ }
+
+ nav a:hover{
+    color:#000;
+ }
+
+ nav a::before{
+     content:"";
+     display:block;
+     height: 5px;
+     width: 10px;
+     
+ }
+ .row{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col-1{
+    text-align: center;
+    flex-basis:30%;
+    min-width: 1500px;
+    margin-top: 35px;
+    border-radius: 3;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    -ms-border-radius: 3;
+    -o-border-radius: 3;
+}
+  
+  .col-2{
+    max-width: 100%;
+    padding: 5px 0;
+    text-align: right;
+    margin-top: none;
+  }
+  
+  .col-2{
+    margin:25px 0;
+    line-height:30px;
+    text-align: center;
+  }
+  
+  .About{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .Skills{
+    margin-top: 10px;
+  }
+  
+  .about{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container .navbar{
+    display:flex;
+    list-style-type: none;
+    display:inline-block;
+    text-decoration: none;
+  
+  }
+  
+  .container{
+    width: 100%;
+    background-color: #ddd;
+  } 
+  
+  .footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:10px 0 ;
+  }
+  
+  .footer h3{
+    color: #fff;
+    margin-bottom: 7px;
+  }
+  
+  .copyright{
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  
+  .qaulification{
+    text-align: center;
+    font-size:10px;
+    display:flex;
+  }
+  
