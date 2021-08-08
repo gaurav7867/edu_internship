@@ -1,0 +1,269 @@
+body{
+    margin:auto
+}
+#header{
+    background-color: red;
+    height:100px;
+    width:100%
+}
+.header_component{
+    display:flex;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#heading{
+    color:red;
+    margin:18px;
+   
+}
+#login{
+    margin-left: 73%;
+    padding-top: 35px;
+}
+
+#login> a{
+    text-decoration: none;
+    color:#fff;
+    font-size:22px;
+    font-weight: bold;
+    box-shadow: 2px 2px 9px  rgb(66, 68, 70);
+    border-radius:5px;
+    border:1px solid rgb(70, 7, 241);
+    
+}
+#login > a:hover{
+    color:#000;
+}
+
+#logo_main{
+    height:70px;
+    width:70px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:80px;
+    display: inline-block; 
+    margin-top: 1%;
+}
+
+#main{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+h1{
+    font-size:40px;
+    font-family: Poppins;
+    color: #192f60;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.filter{
+    height:800px;
+    width:20%;
+    float: left;
+   box-shadow:1px 1px 2px 2px lightgray;
+    line-height:1.5
+}
+#filter1{
+    display:block;
+    margin-left:15px;
+    margin-top:5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:darkblue;
+    
+}
+#filter2{
+    font-weight: bold;
+    color:darkblue;
+    margin-left:15px;
+}
+
+.search{
+    margin-left:15px;
+    margin-top:8px;
+    
+}
+.search > select{
+    border-radius: 3px;
+    width: 90%;
+    padding:6px;
+    font-size: 15px;
+    box-shadow:2px 2px 2px #000;
+}
+.couisin,.cost{
+    height: 200px;
+    width: 70%;
+    margin-top:15px;
+    margin-left: 15px;
+   
+}
+#couisin,#cost,#sortheading{
+    font-size:18px;
+    font-weight: bold;
+    color:darkblue;
+    line-height: 2;
+}
+.sort{
+    height:95px;
+    width:70%;
+    margin-top:2%;
+    margin-left: 5%;
+  
+
+}
+#sorttype{
+    display: block;
+}
+#content{
+    width:65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -2.3%;
+
+}
+
+.list_content{
+    width:100%;
+    height: 240px;
+    box-shadow:1px 1px 2px 2px rgb(110, 110, 184);
+    border-radius:10px;
+    margin-top: 4%;
+    display:flex;
+}
+
+.image>img{
+    height: 120px;
+    width:80% ;
+    margin-top:10%;
+    margin-left:10%;
+    border-radius: 12%;
+   
+}
+.subheading{
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: arial;
+    letter-spacing:0.8;
+
+}
+.subheading1{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(19, 19, 83);
+}
+.subheading2{
+    margin-top:2%;
+    margin-left: 2%;
+    color:grey;
+}
+hr {
+    width: 130%;
+    margin-top:6%;
+    margin-left: -35%;
+    margin-right: auto;
+    
+}
+.type{
+    height:65px;
+    width: 60%;
+    margin-left: -37%;
+    display: flex;
+    justify-content:space-between;
+    line-height: 1.8;
+    
+}
+.type1{
+    padding: 1%;
+    color: gray;
+    letter-spacing:0.5;
+ 
+}
+.type2{
+    padding: 1%;
+    color: rgb(77, 74, 74);
+    font-weight:bold;
+    font-family: cursive;
+    letter-spacing:1px;
+
+}
+.page_slider{
+  height:20%;
+  margin-top:2%;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+}
+.one{
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:1%;
+    padding: 5px;
+    width: 20px;
+  
+}
+.one:hover{
+    color:white;
+    background-color:gray
+}
+#social{
+    display: inline-block;
+    margin-left:75%;
+    margin-top:-4%
+}
+@media screen and(max-width:1600){
+    body{
+        background-color:lightblue;
+    }
+
+}
+@media screen and(max-width:1400){
+    body{
+        background-color:rgb(51, 85, 97);
+    }
+
+}
+@media screen and(max-width:1200){
+    body{
+        background-color:rgb(151, 219, 141);
+    }
+}
+@media screen and(max-width:1000){
+    body{
+        background-color:rgb(201, 224, 146);
+    }
+
+}
+@media screen and(max-width:800){
+    body{
+        background-color:rgb(190, 145, 179);
+    }
+}
+@media screen and(max-width:600){
+    body{
+        background-color:rgb(182, 120, 102);
+    }
+
+}
+@media screen and(max-width:400){
+    body{
+        background-color:rgb(201, 130, 230);
+    }
+
+}
+

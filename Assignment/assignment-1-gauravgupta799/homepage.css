@@ -1,0 +1,212 @@
+body{
+    margin:auto;
+}
+
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image: url("https://i.ibb.co/jfJW6ND/food-wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+    width:100%;
+    height: 470px;
+}
+#quicksearch{
+    width:100%;
+    height: 500px;
+}
+
+#login{
+    margin-left: 80%;
+}
+
+#login> a{
+    text-decoration: none;
+    color:#fff;
+    font-size:25px;
+    font-weight: bold;
+    box-shadow: 2px 2px 9px  rgb(66, 68, 70);
+    border-radius:5px;
+    border:1px solid rgb(70, 7, 241);
+    
+}
+#login > a:hover{
+    color:#000;
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    position: relative;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+
+#logo > span {
+    font-weight: bold;
+    position:absolute;
+    margin-left: -27px;
+    margin-top:14px;
+}
+
+#find{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size:35px;
+    margin-top: 20px;
+    background-color:rgb(36, 11, 11);
+    margin-left: 380px;
+    margin-right:350px;
+    border-radius:10px;
+}
+
+.dropdown{
+    text-align:center;
+    height:60px;
+    width: 60%;
+    margin-left: 21%;
+    margin-top:28px;
+    
+}
+select{
+    height: 50px;
+    width:30%;
+    font-size:18px;
+    font-weight: bold;
+    border-radius:12px;
+    font-family: verdana;
+}
+#restaurants{
+    width:50%;
+}
+#quicksearch{
+    width:80%;
+    margin-left: 10%;
+    margin-top:20px;
+}
+
+#quickheading{
+    font-size:40px;
+    font-weight: bold;
+    color:rgb(2, 2, 238);
+    text-shadow: 2px 1px 5px gray;
+}
+
+#quicksubheading{
+    font-size: 18px;
+    margin-top: -30px;
+    color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#maintilecontainer{
+    margin-top:2%;  
+}
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 1px 3px 15px rgb(10, 0, 0);
+    display:inline-block;
+    margin-left: 2%;
+    margin-top: 10px;
+    
+}
+.tilecomponent1{
+    width:46%;
+    float:left;
+}
+.tilecomponent1 > img{
+    height:180px;
+    width:100%;
+}
+.tilecomponent2{
+    width: 45%;
+    float: left;
+    margin-left:20px;
+    margin-top: 20px;
+
+}
+.componentheading{
+    color:#143375;
+    font-size: 25px;
+    font-weight: bold;
+}
+.componentsubheading{
+   color:gray;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+.footer{
+    background-color: #000;
+    height: 50px;
+    width:100%;
+}
+#copyright{
+    text-align:center;
+    padding-top:20px;
+    font-weight: bold;
+    color:white;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightcyan;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:lightblue;
+    
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:lightgrey;
+    }
+    .tilecontainer{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:lightcoral;
+    }
+    .tilecontainer{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:lightpink;
+    }
+    .tilecontainer{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:lightsalmon;
+    }
+    .tilecontainer{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:400px){
+    body{
+        background-color:lightgoldenrodyellow;
+    }
+    
+}
+}
