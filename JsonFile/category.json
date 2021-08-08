@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "category":"Mobile"
+    },
+    {   "id":2,
+        "category":"Laptop"
+    },
+    {
+        "id":3,
+        "category":"LED TV"
+    },
+    {
+        "id":4,
+        "category":"Air Conditionars"
+    },
+    {
+        "id":5,
+        "category":"Watch"
+    } 
+    
+]

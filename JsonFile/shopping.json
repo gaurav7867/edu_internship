@@ -1,0 +1,619 @@
+[
+    {
+       "id":1,
+       "name":"Iphone 11",
+       "category":"Mobile",
+       "category_id":1,
+       "price":35000,
+       "rating":4.7,
+       "color":"white",
+       "image":"https://i.ibb.co/8DRqJc1/iphone11.jpg",
+       "company":"Apple"
+    },
+
+    {
+        "id":2,
+       "name":"Samsung Galaxy",
+       "category":"Mobile",
+       "category_id":1,
+       "price":25000,
+       "rating":4.5,
+       "color":"Glory Silver",
+       "image":"https://i.ibb.co/7zLzPbY/samsung-galaxy.jpg",
+       "company":"Sumsung"
+    },
+
+    {
+        "id":3,
+       "name":"Redmi note 10 pro",
+       "category":"Mobile",
+       "category_id":1,
+       "price":15000,
+       "rating":4.6,
+       "color":"Laser Blue",
+       "image":" https://i.ibb.co/6W5rF2Q/redminote10pro.jpg",
+       "company":"Xiaomi"
+    },
+
+    {
+        "id":4,
+       "name":"vivo V20",
+       "category":"Mobile",
+       "category_id":1,
+       "price":21000,
+       "rating":4.2,
+       "color":"whitery Gray",
+       "image":" https://i.ibb.co/hZXzP6L/vivo-v20.jpg",
+       "company":"iQOO"
+    },
+
+    {
+        "id":5,
+       "name":"Oppo F17",
+       "category":"Mobile",
+       "category_id":1,
+       "price":21000,
+       "rating":4.3,
+       "color":"Dynamic Orange",
+       "image":" https://i.ibb.co/vhFD5Py/oppo-f17.jpg",
+       "company":"OPPO"
+    },
+
+    {
+        "id":6,
+       "name":"Motorola P30",
+       "category":"Mobile",
+       "category_id":1,
+       "price":18000,
+       "rating":4.4,
+       "color":"Black",
+       "image":" https://i.ibb.co/k0rCkP2/motorola-p30.jpg",
+       "company":"MOTO"
+    },
+
+    {
+        "id":7,
+       "name":"OnePluse 8Pro",
+       "category":"Mobile",
+       "category_id":1,
+       "price":480000,
+       "rating":4.2,
+       "color":"Glacian Green",
+       "image":" https://i.ibb.co/5rgDWt6/oneplus8pro.jpg",
+       "company":"Oppo"
+    },
+
+    {
+        "id":8,
+       "name":"Infinix Hot8",
+       "category":"Mobile",
+       "category_id":1,
+       "price":14000,
+       "rating":4.4,
+       "color":"Frosted Champagne",
+       "image":" https://i.ibb.co/zW3KwzW/infinix-hot8.jpg",
+       "company":"Apple"
+    },
+
+    {
+        "id":9,
+       "name":"Micromax Canvas",
+       "category":"Mobile",
+       "category_id":1,
+       "price":8000,
+       "rating":3.8,
+       "color":"Red",
+       "image":" https://i.ibb.co/sCn375h/micromax-canvas.jpg",
+       "company":"Micromax Informatics"
+    },
+
+    {
+        "id":10,
+       "name":"Honor8x",
+       "category":"Mobile",
+       "category_id":1,
+       "price":18999,
+       "rating":4.5,
+       "color":"cyber Blue",
+       "image":" https://i.ibb.co/YW8RYGv/honor-8x.jpg",
+       "company":"Huawei"
+    },
+
+
+
+    
+    {
+        "id":1,
+        "name":"HP Pavillion",
+        "category":"Laptop",
+        "category_id":2,
+        "price":35000,
+        "rating":4.6,
+        "processor":"Intel/Ryzen",
+        "color":"silver",
+        "image":"https://i.ibb.co/C8S9zBH/hp-pavillion.jpg ",
+        "company":"Hewlett-Packkard"
+    },
+
+    {
+        "id":2,
+        "name":"Dell Inspire",
+        "category":"Laptop",
+        "category_id":2,
+        "price":40000,
+        "rating":4.5,
+        "color":"Black",
+        "image":" https://i.ibb.co/xfMqYPd/dell-inspire.jpg",
+        "company":"Dell"
+    },
+
+    {
+        "id":3,
+        "name":"Acer Aspire 5",
+        "category":"Laptop",
+        "category_id":2,
+        "price":35000,
+        "rating":4.4,
+        "color":"Gray",
+        "image":"https://i.ibb.co/tXGNYcx/acer-aspire-5.jpg ",
+        "company":"Acer"
+    },
+
+    {
+        "id":4,
+        "name":"Asus Vivobook 15",
+        "category":"Laptop",
+        "category_id":2,
+        "price":43000,
+        "rating":4.7,
+        "color":"Peacock Blue",
+        "image":" https://i.ibb.co/WtS2S9C/asus-vivobook-15.jpg",
+        "company":"Asus"
+    },
+
+    {
+        "id":5,
+        "name":"MacBook Air",
+        "category":"Laptop",
+        "category_id":2,
+        "price":100000,
+        "rating":5.0,
+        "color":"White",
+        "image":" https://i.ibb.co/yPbNtcN/macbook-air.jpg",
+        "company":"Apple"
+    },
+    {
+        "id":6,
+        "name":"Avita liber",
+        "category":"Laptop",
+        "category_id":2,
+        "price":55000,
+        "rating":4.0,
+        "color":"Sky Blue",
+        "image":" https://i.ibb.co/kKcv5GP/avita-liber.jpg",
+        "company":"Avita"
+    },
+
+    {
+        "id":7,
+        "name":"Lenevo Ideapad",
+        "category":"Laptop",
+        "category_id":2,
+        "price":43000,
+        "rating":4.5,
+        "color":"Power Gray",
+        "image":" https://i.ibb.co/k2vDKSn/lenevo-ideapad.jpg",
+        "company":"Lenevo"
+    },
+
+    {
+        "id":8,
+        "name":"MSI gt",
+        "category":"Laptop",
+        "category_id":2,
+        "price":65000,
+        "rating":4.6,
+        "color":"Black",
+        "image":" https://i.ibb.co/SsR6mMd/msi-gt.jpg",
+        "company":"MSI"
+    },
+
+    {
+        "id":9,
+        "name":"Razer Blade",
+        "category":"Laptop",
+        "category_id":2,
+        "price":26000,
+        "rating":3.8,
+        "color":"cyber Blue",
+        "image":" https://i.ibb.co/B3YssTX/Razer-blade.jpg",
+        "company":"Razer"
+    },
+
+    {
+        "id":10,
+        "name":"Samsung",
+        "category":"Laptop",
+        "category_id":2,
+        "price":40000,
+        "rating":4.4,
+        "color":"Cyber Black",
+        "image":"https://i.ibb.co/H21k96r/samsung.jpg ",
+        "company":"Samsung"
+    },
+
+
+
+
+
+    {
+        "id":1,
+        "name":"LG",
+        "category":"LED TV",
+        "category_id":3,
+        "size":32,
+        "price":22999,
+        "rating":4.4,
+        "color":"Black",
+        "image":" https://i.ibb.co/3cbfWCB/LG.jpg",
+        "company":"LG"
+    },
+
+    {
+        "id":2,
+        "name":"Sony",
+        "category":"LED TV",
+        "category_id":3,
+        "size":43,
+        "price":42999,
+        "rating":4.6,
+        "color": "Black",
+        "image":" https://i.ibb.co/crLhWm4/sony-led-TV.jpg",
+        "company":"Sony"
+    },
+
+    {
+        "id":3,
+        "name":"Phillips",
+        "category":"LED TV",
+        "category_id":3,
+        "size":43,
+        "price":43000,
+        "rating":4.2,
+        "color":"White",
+        "image":"https://i.ibb.co/g9vMPbj/Phillips.jpg",
+        "company":"Phillips"
+    },
+
+    {
+        "id":4,
+        "name":"Haier",
+        "category":"LED TV",
+        "category_id":3,
+        "size":43,
+        "price":35000,
+        "rating":4.1,
+        "color":"cyber Blue",
+        "image":" https://i.ibb.co/JtRc7hp/haier.jpg",
+        "company":"Haier"
+    },
+
+    {
+        "id":5,
+        "name":"Panasonic",
+        "category":"LED TV",
+        "category_id":3,
+        "size":43,
+        "price":38000,
+        "rating":4.1,
+        "color":"Silver",
+        "image":"https://i.ibb.co/KxHLrL9/panasonic-tv.jpg ",
+        "company":"Panasonic"
+    },
+
+    {
+        "id":6,
+        "name":"Sansui",
+        "category":"LEDTV",
+        "category_id":3,
+        "size":43,
+        "price":29000,
+        "rating":3.8,
+        "color":"White",
+        "image":" https://i.ibb.co/6n28KWC/sansui.jpg",
+        "company":"Sansui"
+    },
+
+    {
+        "id":7,
+        "name":"Samsung",
+        "category":"LED TV",
+        "category_id":3,
+        "size":43,
+        "price":39999,
+        "rating":4.4,
+        "color":"cyber white",
+        "image":" https://i.ibb.co/4YvNc2x/samsung-TV.jpg",
+        "company":"Samsung"
+    },
+
+    {
+        "id":8,
+        "name":"Videocon",
+        "category":"LED TV",
+        "category_id":3,
+        "size":32,
+        "price":11000,
+        "rating":3.6,
+        "color":"Balck",
+        "image":" https://i.ibb.co/Fn369JD/videicon-tv.jpg",
+        "company":"Videocon"
+    },
+
+    {
+        "id":9,
+        "name":"Zebronics",
+        "category":"LED TV",
+        "category_id":3,
+        "size":22,
+        "price":8000,
+        "rating":3.2,
+        "color":"Black",
+        "image":" https://i.ibb.co/0KPKnDJ/zebronics-tv.jpg",
+        "company":"Zebronics"
+    },
+
+    {
+        "id":10,
+        "name":"Intex Tv",
+        "category":"LED TV",
+        "category_id":3,
+        "size":32,
+        "price":22999,
+        "rating":3.5,
+        "color":"Gray",
+        "image":" https://i.ibb.co/ckKdTLF/intex-tv.jpg",
+        "company":"Intex"
+    },
+
+    {
+        "id":1,
+        "name":"Whirlpool ",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":26999,
+        "rating":4.1,
+        "color":"White",
+        "image":"https://i.ibb.co/3SY03Vn/whirlpool-ac.jpg ",
+        "company":"Whirlpool"
+    },
+
+    {
+        "id":2,
+        "name":"Haier",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":35000,
+        "rating":4.1,
+        "color":"white",
+        "image":" https://i.ibb.co/4tQRpqx/Haier-ac.jpg",
+        "company":"Haier"
+    },
+
+    {
+        "id":3,
+        "name":"Hitachi",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":14000,
+        "rating":4.5,
+        "color":"Whttps://i.ibb.co/cQJTS93/hitachi-AC.jpghite",
+        "image":" ",
+        "company":"Hitachi"
+    },
+
+    {
+        "id":4,
+        "name":"BlueStar",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":19000,
+        "rating":4.5,
+        "color":"White",
+        "image":"https://i.ibb.co/nPd0cNS/bluestar-ac.jpg ",
+        "company":"BlueStar"
+    },
+
+    {
+        "id":5,
+        "name":"Voltas",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":12000,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/5xWdbZp/voltas-AC.jpg",
+        "company":"Voltas"
+    },
+
+    {
+        "id":6,
+        "name":"Gree",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":11000,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/N2wnFg2/gree-ac.jpg",
+        "company":"Gree"
+    },
+
+    {
+        "id":7,
+        "name":"Daikin",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":13000,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/nnDmp6F/daikin-AC.jpg",
+        "company":"Daikin"
+    },
+
+    {
+        "id":8,
+        "name":"godrej",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":16999,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/xs7XnNW/godrej-ac.jpg",
+        "company":"Godrej"
+    },
+
+    {
+        "id":9,
+        "name":"LLOYD",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":12999,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/d2jpSVH/lloyd-ac.jpg",
+        "company":"LLOYD"
+    },
+
+    {
+        "id":10,
+        "name":"Vestar",
+        "category":"Air Conditionars",
+        "category_id":4,
+        "price":12999,
+        "rating":4.5,
+        "color":"White",
+        "image":" https://i.ibb.co/FbzqV1j/vestar-ac.jpg",
+        "company":"Vestar"
+    },
+
+
+    {
+        "id":1,
+        "name":"Fastrack",
+        "category":"Watch",
+        "category_id":5,
+        "price":900,
+        "rating":4.3,
+        "color":"https://i.ibb.co/3cJnyvf/fastrack-watch.jpgBlack",
+        "image":" ",
+        "company":"Fastrack"
+    },
+
+    {
+        "id":2,
+        "name":"Sonata",
+        "category":"Watch",
+        "category_id":4.4,
+        "price":1800,
+        "rating":4.5,
+        "color":"Brown",
+        "image":" https://i.ibb.co/M6bwQ9m/sonata-watch.jpg",
+        "company":"TATA"
+    },
+
+    {
+        "id":3,
+        "name":"Titan",
+        "category":"Watch",
+        "category_id":5,
+        "price":1900,
+        "rating":4.6,
+        "color":"Brown",
+        "image":" https://i.ibb.co/hHWk79G/Titan.jpg",
+        "company":"Titan"
+    },
+
+    {
+        "id":4,
+        "name":"Rolex",
+        "category":"Watch",
+        "category_id":5,
+        "price":25999,
+        "rating":4.8,
+        "color":"Golden",
+        "image":" https://i.ibb.co/23VTZD9/Rolex-watch.jpg",
+        "company":"Rolex"
+    },
+
+    {
+        "id":5,
+        "name":"Calvin Klein",
+        "category":"Watch",
+        "category_id":5,
+        "price":550,
+        "rating":3.6,
+        "color":"Black",
+        "image":" https://i.ibb.co/dQDch5G/Calvinklevin-watch.jpg",
+        "company":"Calvin Klein"
+    },
+
+    {
+        "id":6,
+        "name":"Arnold & Son",
+        "category":"Watch",
+        "category_id":5,
+        "price":850,
+        "rating":4.0,
+        "color":"Brown",
+        "image":" https://i.ibb.co/rwYKzbd/Arnold-Son-watch.jpg",
+        "company":"Arnold & Son"
+    },
+
+    {
+        "id":7,
+        "name":"Redo",
+        "category":"Watch",
+        "category_id":5,
+        "price":1400,
+        "rating":4.1,
+        "color":"Beiges",
+        "image":" https://i.ibb.co/Bfy9xyH/Redo-watch.jpg",
+        "company":"Redo"
+    },
+
+    {
+        "id":8,
+        "name":"Casio",
+        "category":"Watch",
+        "category_id":5,
+        "price":3200,
+        "rating":4.4,
+        "color":"Tans",
+        "image":" https://i.ibb.co/PYpWJhV/Casio-watch.jpg",
+        "company":"Casio"
+    },
+
+    {
+        "id":9,
+        "name":"Fossil",
+        "category":"Watch",
+        "category_id":5,
+        "price":4200,
+        "rating":4.6,
+        "color":"Dark Brown",
+        "image":" https://i.ibb.co/dc80ySH/fossil-watch.jpg",
+        "company":"Fossil"
+    },
+
+    {
+        "id":10,
+        "name":"HMT",
+        "category":"Watch",
+        "category_id":5,
+        "price":3500,
+        "rating":4.4,
+        "color":"Black",
+        "image":" https://i.ibb.co/q5PqmFk/HMT-watch.jpg",
+        "company":"Hidustan Machine Tools"
+    }
+]
