@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(99, 198, 216);
+}
+.container{
+    border: 2px solid black;
+    background:rgb(206, 203, 203);
+    margin-top: 20px;
+    border-radius:20px;
+    
+}
+
+.form-group label{
+    font-size:20px;
+}
