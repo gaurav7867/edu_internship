@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #353b48;
+}
+
+#navbar{
+    background-color: #3c6382;
+    /* border: 1px solid red; */
+    height:50px;
+    margin-top: 10px;
+}
+
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:17px;
+    padding:12px ;
+}
+#navbar ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.card{
+    width:30%;
+    height:450px;
+    display:inline-block; 
+    margin-left:2%;
+    margin-top:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .top-header {
+    background-color: rgb(128, 0, 128);
+    color: rgb(255,255,255);
+    height: 3em;
+    left: 0;
+    margin-bottom: 1.25em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  } */
+  
+  
+  
