@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: white;
+                color:black
+            }
+            .mydark{
+                background-color: black;
+                color:white
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Light/Dark mode</h2>
+        <p>We are working on light dark mode</p>
+        <button onclick="changeMode()">Change</button>
+
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                // if body have class mydark it will remove the class else add
+                mybody.classList.toggle("mydark");
+            }
+        </script>
+    </body>
+</html>
