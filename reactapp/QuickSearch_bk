@@ -1,0 +1,153 @@
+<div id="search">
+  <span id="Zlogo">Zomato</span>
+  <p id="demo"></p>
+  <div id="login">
+    <br /><br />
+    <a href="/Zomato/LoginForm/login.html" target="self"> Login </a
+    >&nbsp;
+    <a href="loginForm/SingnUp.html" target="self"> Create Account </a>
+  </div>
+  <div class="bike">
+    <img src="image/bike.png" style="height: 80px; width: 80px" />
+  </div>
+  
+  <div id="logo">
+    <span>z!</span>
+  </div>
+  <div id="find">
+    Find Your The Best Restaurants,Cafe and Bars <span id = "usercity"></span>.
+  </div>
+  <div class="dropdown">
+    <select onChange= "recommend()" id="city">
+      <option>---Select Location---</option>
+      <!-- <option value = "Lucknow">Lucknow</option>
+      <option value = "Delhi">Delhi</option>
+      <option value = "Mumbai">Mumbai</option> -->
+    </select>
+  
+    <select id="restaurants">
+      <option>---Select Your Restaurant---</option>
+      <option>Lucknow</option>
+      <option>Delhi</option>
+      <option>Allahabad</option>
+      <option>Kanpur</option>
+      <option>Saharanpur</option>
+      <option>Jhansi</option>
+      <option>Bihar</option>
+      <option>Bareili</option>
+      <option>Pune</option>
+      <option>Goa</option>
+    </select>
+  </div>
+  <div class="popup-container">
+    <span id="coupon-heading">Use the coupon to get more discount</span>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <div class="row1">
+      <div class="offer">
+        <div class="offer-1">
+          <img src="image/burger.jpg" alt="" />
+        </div>
+        <div class="offer-heading">
+          <h3>Zomato</h3>
+          <h4>Get Flat 50% Discount</h4>
+          <!-- <p id="C1">Get 50% discount</p> -->
+          <p>Use Code: ZOMO50</p>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer-1">
+          <img src="image/pizza.jpg" alt="" />
+        </div>
+        <div class="offer-heading">
+          <h3>Zomato</h3>
+          <h4>Get Flat 35% Discount</h4>
+          <!-- <p id="C1">Get 50% discount</p> -->
+          <p>Use Code: ZOMATO35</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row1">
+      <div class="offer">
+        <div class="offer-1">
+          <img src="image/Lunch.jpg" alt="" />
+        </div>
+        <div class="offer-heading">
+          <h3>Zomato</h3>
+          <h4>Get Flat 25% Discount</h4>
+          <!-- <p id="C1">Get 50% discount</p> -->
+          <p>Use Code: ZOMO25</p>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer-1">
+          <img src="image/breakfast.jpg" alt="" />
+        </div>
+        <div class="offer-heading">
+          <h3>Zomato</h3>
+          <h4>Get Flat 70% Discount</h4>
+          <!-- <p id="C1">Get 50% discount</p> -->
+          <p>Use Code: ZOMO70</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <button class="btn" onclick="changeMode()">Dark Mode</button>
+
+
+
+import React from 'react';
+import './QuickSearch.css';
+// import {Link} from 'react-router-dom';
+
+const QuickSearch = (props) => {
+  
+    const listMeal = ({quickData}) => {
+        if(quickData){
+            return quickData.map((item) => {
+                return(
+                    <Link to={`/list/${item.mealtype_id}`} key={item.mealtype_id}>
+                        <div className="tileContainer">
+                            <div className="tileComponent1">
+                                <img src={item.meal_image} alt="breakfast"/>
+                            </div>
+                            <div className="tileComponent2">
+                                <div className="componentHeading">
+                                    {item.mealtype}
+                                </div>
+                                <div className="componentSubHeading">
+                                    {item.content}
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                )
+            })
+        }
+    }
+    return(
+
+        <div id="quicksearch">
+            <span id="QuickHeading">
+                Quick Searches
+            </span>
+            <span id="QuickSubHeading">
+                Discover reståurânts by type of meal
+            </span>
+            <div id="mainTileContainer">
+                {listMeal(props)}
+            </div> 
+        </div>
+    )
+}
+
+export default QuickSearch;
+
+
+
+
+
+
+
+
