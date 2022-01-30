@@ -1,0 +1,50 @@
+body{
+    background: rgb(43, 60, 120);
+    /* border: 1px solid green; */
+}
+.inner{
+    /* background: blue; */
+}
+.box{
+    /* background:red; */
+}
+#tweetMe{
+    width:30px;
+    border-radius: 50%;
+    margin-left: 95%;
+    margin-top: 10px;
+}
+.text{
+    background: white;
+    /*width:50%;
+    */height: 300px;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#quotes{
+    font-family: Copperplate, Papyrus, fantasy
+}
+#author{
+    color:blue;
+    font-style: oblique;
+    margin-left: 10px;
+}
+#nQuotes{
+    padding: 10px;
+    border-radius: 5px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    background: #000;
+   margin-left: 50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border:1px solid green
+}
+#nQuotes:hover{
+    cursor: pointer;
+}
