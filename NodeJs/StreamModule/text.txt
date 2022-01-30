@@ -1,0 +1,17 @@
+Hello everyone,my name is Gaurav Gupta. 
+I am native of Lucknow.But currently I live in Ahemdabad and I work at "Mobilefirst Application Pvt. Ltd." as a MERN stack web developer last for 1 month
+I have completed my B.tech specialized in Computer Science with aggregate of 7 CGPA in 2020 from GCRG Group Of Institute.
+I did my schooling with 76% in 12th standard from UP board and
+65% in 10th standard from S.P.M High school, Bihar.
+
+My technical skills are:- 
+ Frontend languages and frameworks : HTML, CSS,Bootstrap3&4, JavaScript,ReactJs
+ Backend languages and frameworks :  NodeJs, Express
+ Database: MongoDB, MySQL.
+
+My hobbies are plyaing badminton and listening insipiratonal talks and watching motivational videos.
+
+My strength is I am positive thinking ,being optimistic,quick learner and I don't give up easily.
+My weakness is I never feel comfortable untill I finish my work.
+
+My goal is to work in a group where I can get knowledge related to my field and  my skills are useful for the organization.
