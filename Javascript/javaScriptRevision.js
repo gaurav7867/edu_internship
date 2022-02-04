@@ -136,6 +136,96 @@ var Sum1 =funExp(13,5);
 var Sum2 =funExp(34,5);
 console.log(Sum1 > Sum2 )
 
+// ECMAScript 2015 or ES6
+
+    // Let, Const, 
+    // Template String,
+    // Destructuring,
+    // Object Properties,
+    // Default Arguments,
+    // Arrow Function, 
+    // Rest Operators,
+    // Spread Operators,
+
+// Default Arguments,    
+    function mult(a,b=5){
+        return a * b;
+    }
+    console.log(mult(10))
+
+// Fat Arrow Function ( => )
+const Sum = ()=>{
+    let a = 5, b= 10;
+    let sum = a + b;
+    return `The sum of the two numbers is ${sum}`;
+}
+console.log(Sum())
+
+// // OR
+
+const Sum = ()=>{
+    let a = 5, b= 10;
+    return `The sum of the two numbers is ${a + b}`;
+}
+console.log(Sum())
+OR
+const Sum = ()=>{
+    return `The sum of the two numbers is ${(a= 6) + (b= 8)}`;
+}
+console.log(Sum())
+
+// OR
+
+const Sum = ()=>`The sum of the two numbers is ${(a= 6) + (b= 8)}`
+console.log(Sum())
+
+
+                    // >>>> Array  [] >>>>
+
+// when we use var, we can store the only one value at a time.
+// In array , we can store the multiple values at once in one variable instead of var .
+// In javascript, we have an array class , and  arrays are the prototype of this class. 
+// In array of javascript, we can store any dataType of values instead of other programming languages. 
+
+// var indianCricketPlayers = ['MS Dhoni',36, male, 'Virat',29, male, 'Rohit Sharma', 'KL Rahul', false, true ]
+
+// Travesal of an Array
+// Searching and Filter in an Array
+// How to Sort and Compare an Array
+// How to Insert, Add, Replace and Delete Elements in Array (CRUD)
+// Map(), Reduce(), Filter()
+
+var names = ['Ram', 'shyam', 'mohan', 'sohan'];
+console.log(names.length)
+console.log(names.length -1)
+console.log(names[names.length -1])
+
+//   we use for loop to navigate 
+
+var names = ['Ram', 'shyam', 'mohan', 'sohan','shefali','Rashmika'];
+
+// for loop :=> it ruturns elements of an array
+for(var i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
+
+//  >>> for in loop :->> it returns index number of an array
+for(let elements in names){
+    console.log(elements);
+}
+
+// for of loop :->> it returns elements of an array
+for(let elements of names){
+    console.log(elements);
+}
+
+// forEach loop
+var names = ['Ram', 'shyam', 'mohan', 'sohan','shefali','Rashmika'];
+names.forEach((element, index,array)=>{
+    console.log(`${element} : ${index} `)
+    // console.log(array)
+})
+
 
 
 
