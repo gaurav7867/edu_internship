@@ -5,7 +5,7 @@ if(tomorrow == 'rain'){
     console.log("No need to take a raincoat.")
 }
 
-// Write a program that works out of the leap year
+// // Write a program that works out of the leap year
 var year = 2024
 if(year%4 == 0){
     if(year%100 == 0){
@@ -99,6 +99,42 @@ do{
     num++;
 }while(num<=10);
 
+// for loop
+//  >>> for(initializer; condition; iteration){ 
+//              code of block
+//         }
+    for(var num=1; num<=10; num++){
+        var table = 4;
+        console.log(table +' * '+ num + ' = '+ table * num ); 
+    }
+
+// Function : - It is a block of code designed to perform a perticular task.
+
+function funtionName(){
+    // statement
+}
+
+function Sum(a,b){
+    var total = a + b;
+    console.log(total);
+
+Sum(5,6);
+Sum(7,9)
+}
+
+function Sum(a,b){
+    return total  = a + b;
+}
+var Result =Sum(3,5);
+console.log(Result)
+
+
+var funExp = function(a,b){
+    return total  = a + b;
+}
+var Sum1 =funExp(13,5);
+var Sum2 =funExp(34,5);
+console.log(Sum1 > Sum2 )
 
 
 
