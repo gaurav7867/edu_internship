@@ -225,6 +225,149 @@ names.forEach((element, index,array)=>{
     // console.log(array)
 })
 
+        
+//    >>> Searching and Filter in an Array 👈
+
+var fruits = ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple']
+console.log(fruits.indexOf()) // -1
+console.log(fruits.indexOf('Plumb')) // 5
+console.log(fruits.indexOf('Apple'))
+
+                  // push()  :=> Add one or more elements to the end of the array 🙋🏼‍♂️
+
+var fruits = ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple']
+fruits.push('Berry')  // ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple','Berry']
+console.log(fruits)
+
+                       // pop () Method 🙋🏼‍♂️ -> Remove the last element of  an array
+
+var fruits = ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple']
+fruits.pop()  //  ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava']
+console.log(fruits)
+
+               // unshift() 🙋🏼‍♂️  :=> Add one or more elements to the begining of the array
+fruits.unshift('Cucumbe') 
+Output:- ['Cucumbe','Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple']
+fruits.unshift(4,5)  /// [4, 5, 'Mango',  'Banana','Orange', 'Watermelon','Litchi', 'Plumb','Guava',  'Apple' ]
+console.log(fruits)
+
+               // shift() Method 🙋🏼‍♂️
+//  Remove the first element from the array
+var fruits = ['Mango', 'Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava','Apple']
+fruits.shift()  
+console.log(fruits)
+// Output: -  ['Banana', 'Orange', 'Watermelon', 'Litchi','Plumb','Guava']
+
+
+
+                             // 👉   // >>>>>  String >>>> // 👈
+//                                ------------------------------
+// A JavaScript strings is zero or more characters written inside quotes.
+// You can use single or double quotes.
+// Strings can be created as primitives.,from string literals, or objects, using the Strings() constructor.
+
+let myName = "Gaurav Gupta";
+let myChannelName = "CodewithFun";
+
+let ytName= new String("Gaurav Gupta"); // Generate a string through constructor
+console.log(myName);
+console.log(ytName);
+
+
+                 // Escape Character 🙋🏼‍♂️
+let anySentence = "Hello! I am \"MERN\" Stack Developer."
+console.log(anySentence);
+// or
+let anySentence = "Hello! I am 'MERN' Stack Developer.";
+console.log(anySentence);
+// // or 
+let anySentence = "Hello! I am 'MERN' Stack Developer.";
+console.log(anySentence);
+
+//  Finding a string in a string 👈
+
+                // indexOf(searchValue [,fromIndex])🙋🏼‍♂️
+
+// The indexOf() method returns the index of (the position of) the first occurence of a specified text in a string
+
+const myBioData = "Hello, My name is Gaurav Gupta.";
+console.log(myBioData.indexOf("name")); // 10 
+console.log(myBioData.indexOf("IS"));   // -1
+console.log(myBioData.lastIndexOf("Gupta"));
+
+                //  >>>> Search() method >>>> 🙋🏼‍♂️
+// Searching for a string in a String for a specified value and returning
+// returns the position/index number of the match
+
+const myBioData = "Hello, My name is Gaurav Gupta.";
+let SearchData = myBioData.search("name ") // 10
+let SearchData = myBioData.search(" "); // 6
+console.log(SearchData)
+
+// Extracting String Parts
+// There are 3 methods to extract string parts
+// slice(start, end)
+// substring(start, end)
+// substr(start, length)
+
+                // >>>> slice() Methods >>> 🙋🏼‍♂️
+// The slice() method extracts a section of a string and returns it as a new string, without modifying the original string.
+
+const str = 'She handed Dandy to Rob and Random to Aaron, introducing the horses by name.';
+
+console.log(str.slice(20)); // output: Rob and Random to Aaron, introducing the horses by name.
+console.log(str.slice(4, 15)); // output: handed Dand
+console.log(str.slice(-8)); // output: by name.
+console.log(str.slice(-15, -5)); //output: horses by
+
+// Ques: -Display only 280 characters of a string like the one usd in Tweeter.
+
+let myTweets = "The name Busiris in this legend may have been caught up merely at random by the early Greeks, or they may have vaguely connected their legend with the Egyptian myth of the slaying of Osiris (as king of Egypt) by his mighty brother Seth, who was in certain aspects a patron of foreigners."
+let myActualTweet =myTweets.slice(0,280)
+console.log(myActualTweet.length) 
+
+// Return the Unicode pf the last character in a string.
+
+
+                     // >>> substring() Method >>> 🙋🏼‍♂️
+// subtring() is same to slice()
+// The difference is that substring() cannot accept negative indexes.
+const str = 'She handed Dandy to Rob and Random to Aaron, introducing the horses by name.'
+let res = str.substring(3,7);
+console.log(res);  //  han
+let res = str.substring(3,-7);
+console.log(res);  // she
+ 
+                    // >>> substr(start ,length)  or substr(start) Method >>> 🙋🏼‍♂️
+var aString = 'Godzilla';
+
+console.log(aString.substr(0, 1));   // 'G'
+console.log(aString.substr(1, 0));   // ''
+console.log(aString.substr(-1, 1));  // 'a'
+console.log(aString.substr(1, -1));  // ''
+console.log(aString.substr(-3));     // 'lla'
+console.log(aString.substr(1));      // 'ozilla'
+console.log(aString.substr(-20, 2)); // 'Go'
+console.log(aString.substr(20, 2));  // ''                    
+
+
+                     // >>> split() or split(separator) or split(separator,limit) Method >>> 🙋🏼‍♂️
+
+//  The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.  
+// const str = 'He turned Random back and headed for the camp.';
+
+const words = str.split(' ');
+console.log(words[3]);
+// Output: "back"
+
+const chars = str.split('');
+console.log(chars[8]);
+// Output: "d"
+
+const strCopy = str.split();
+console.log(strCopy);
+Output: Array [ 'He turned Random back and headed for the camp.' ]
+        
 
 
 
