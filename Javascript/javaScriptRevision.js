@@ -369,6 +369,56 @@ console.log(strCopy);
 Output: Array [ 'He turned Random back and headed for the camp.' ]
         
 
+ // >>> trim() Method >>> 🙋🏼‍♂️
+ let text1 = "Please visit Microsoft!";
+let newText1 = text1.replace("Microsoft", "Google");
+console.log(newText1);
+
+let text2 = "Please visit Microsoft and Microsoft!";
+let newText2 = text2.replace("Microsoft", "Google");
+console.log(newText2); // Please visit Google and Microsoft!
+
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace(/Microsoft/g, "Google");
+console.log(newText); // Please visit Google and Google!
+
+let text = "You are my good friend ";
+let newText = text.replace("GOOD", "best");
+console.log(newText);
+
+
+let text1 = "hello gaurav";
+let text2 = text1.toUpperCase();
+console.log(text2);
+let text3 = "HELLO GAURAV";
+let text4 = text3.toLowerCase();
+console.log(text4);
+
+
+let word1 = "Hello";
+let word2 = "World";
+let word3 = word1.concat(" ", word2);
+console.log(word3); // Hello World
+
+
+let word = "hello coder";
+let result = word.charAt(0).toUpperCase()
+console.log(result);
+
+
+// DATE and TIME 🙋🏼‍♂️
+let date = new Date();
+console.log(date.toString());
+
+let date = new Date();
+console.log(date.toLocaleString()); // 2/8/2022, 10:57:33 AM
+
+console.log(Date.now()) // gives millisecond since 1st January 1970
+console.log( new Date(2022,1,8).toLocaleString())
+
+let date = new Date("February 8 2022 ");
+console.log(date.toLocaleDateString()) // 2/8/2022        
+
 
 
 
