@@ -421,18 +421,201 @@ console.log(date.toLocaleDateString()) // 2/8/2022
 
 
 
+// Date:- 10/02/2022 🙋🏼‍♂️
+
+//  Class in JavaScript 👈👈
+class Car {
+    constructor(name,year) {
+        this.name = name;
+        this.year = year;
+    }
+    age(){
+        let date = new Date();
+        return date.getFullYear() - this.year;
+    }
+}
+
+const myCar = new Car("Audi",2000);
+console.log(`My car age is ${myCar.age()} years old.`)
+
+class Car {
+    constructor(name,year) {
+        this.name = name;
+        this.year = year;
+    }
+    age(x){
+        return x - this.year;
+    }
+}
+
+let date = new Date();
+let year = date.getFullYear();
+
+const myCar = new Car("Audi",1985);
+console.log(`My car age is ${myCar.age(year)} years old.`)
 
 
+// JSON (JavaScript Object Notetion):🙋🏼‍♂️👈
+
+let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const Parse =JSON.parse(text)
+// console.log(Parse);
+// console.log(JSON.stringify(Parse))
+
+console.log(Parse.employees[2].firstName + ' ' + Parse.employees[2].lastName);
+
+// // Inheritence 🙋🏼‍♂️👈
+class Car{
+    constructor(brand,color) {
+        this.carname = brand;
+        this.carcolor = color;
+    }
+    present() {
+        return `I have a ${this.carname} which color is ${this.carcolor}`;
+    }
+}
+class Model extends Car {
+    constructor(brand,color,model) {
+        super(brand,color)
+        this.carmodel = model;
+    }
+    show() {
+        return `${this.present()}. It is a ${this.carmodel}`; 
+    }
+
+}
+let myCar = new Model("Ford","black", "Mustang");
+console.log(myCar.show());
 
 
+// ➖➖➖➖➖➖➖➖➖➖➖
+// Difference between var, let and const Variable
+// Var 👈
+var x = "Gaurav"; // Gaurav // Declaration
+var x = "World";  // World  // Redeclaration
+x="Wow"           // Wow    // Reassign
+console.log(x);
+
+// let
+let x = "Gaurav"; // Gaurav // Declaration  ✔
+// let x = "World";            // Redeclaration ✖
+x="Wow"        // Wow          // Reassign      ✔
+console.log(x);
+
+// const
+const x = "World"; // Declaration  ✔
+const x = "World"; // Redeclaration ✖
+x="Wow"            // Reassign      ✖
+ 
+class Rectangle{
+    constructor(height, width){
+        this.height = height;
+        this.width = width;
+    }
+    // Getter
+    get perimeter() { 
+        return 2*(this.height + this.width)
+    }
+    get area() {
+        return this.calcArea();
+    }
+    calcArea() {
+        return this.height * this.width;
+    } 
+}
+const P = new Rectangle(7,8);
+console.log(P.perimeter)
+console.log(P.area)
 
 
+class Animal {
+    constructor(name){
+        this.name = name;
+    }
+    speak(){
+        console.log(`${this.name} makes a noise.`)
+    }
+}
+class Dog extends Animal {
+    constructor(name){
+        super(name);
+    }
+    speak(){
+        console.log(`${this.name} barks.`)
+    }
+}
+let d = new Dog('Mitzie');
+d.speak();
 
 
+// fetch() Method 🙋🏼‍♂️
+
+fetch('JSON/data.json')
+.then((response) => {
+    console.log(response.json());
+    // return response.text();
+})
+.then((result) => {
+    console.log(result)
+    // return result;
+})
+.catch((err) => {
+    console.log(err);
+});
+
+// Destructuring in Array 🙋🏼‍♂️
+let user = ["Gaurav", "Gupta",22];
+let [fname,lname,age] = user;
+console.log(fname);
+console.log(lname);
+console.log(age);
+
+// Rest Operator 🙋🏼‍♂️
+let user = ["Gaurav", "Gupta",22];
+let [fname,...args] = user;
+console.log(fname);
+console.log(args);
+console.log(args[0]);
+console.log(args[1]);
+
+// With Function() 👈
+let user = ([name,age,city])=>{
+    console.log(name);
+    console.log(age);
+    console.log(city);
+}
+user(["Gaurav",22,"Delhi"])
 
 
+// Destructuring Object 🙋🏼‍♂️
+let user = {
+    name: 'Gaurav',
+    age: '22', 
+    city: 'Lucknow'
+}
+let {name :n, age:a,city:c} = user;
+console.log(n);
+console.log(a);
+console.log(c);
+
+// Async nad await 🙋🏼‍♂️
+const test = async ()=>{
+      console.log("2:Two");
+await console.log("3:Three");
+      console.log("4:Four");
+}
+console.log("1:One");
+test();
+console.log("5:five");
 
 
-
-
-
+// Loop 🙋🏼‍♂️
+// while loop
+// while looping
+// for looping
+// for in loop (object)
+// forEach loop (Array)
