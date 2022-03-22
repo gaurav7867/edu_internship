@@ -50,25 +50,6 @@ export default QuickApi;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import React from 'react';
 // import QuickSearch from './QuickSearch';
 

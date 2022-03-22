@@ -7,7 +7,6 @@ const restUrl ="https://zomoapi.herokuapp.com/restaurant?state_id=1";
 class Search extends Component {
 	constructor(props) {
 		super()
-
 		this.state = {
 			location:"",
 			restaurant:""
@@ -23,7 +22,6 @@ class Search extends Component {
 		}
 
 	}
-
 	renderRestaurants = (data) => {
 		if(data){
 			return data.map((item) => {
@@ -33,7 +31,6 @@ class Search extends Component {
 			})
 		}
 	}
-
 	handleCity =(event)=>{
 		const stateId = event.target.value;
 		fetch(`${restUrl}${stateId}`, {method: 'GET'})
@@ -73,12 +70,11 @@ render(){
 			<div className='dropdown'>
 				<select  id='city' onChange={this.handleCity}>
 					<option>---Select Location---</option>
-					{this.renderCity(this.state.location)}
-					
+					{this.renderCity(this.state.location)}	
 				</select>
 
 				<select id='restaurants'>
-					{this.renderRestaurants(this.state.restaurant)}
+					   {this.renderRestaurants(this.state.restaurant)}
 				</select>
 			</div>
 		</div>
