@@ -4,8 +4,10 @@ import "./restDetails.css";
 import Header from "../Header/Header";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import MenuDisplay from "./menuDisplay";
 
 const url = "https://zomoapi.herokuapp.com/details";
+const menu = "https://zomoapi.herokuapp.com/menu";
 
 class Details extends Component {
 	constructor() {
@@ -13,6 +15,7 @@ class Details extends Component {
 
 		this.state = {
 			details: " ",
+			menuList: ""
 		};
 	}
 	render() {
@@ -21,7 +24,7 @@ class Details extends Component {
 		return (
 			<>
 				<Header />
-				<div className='container' style={{ marginTop: "20px" }}>
+				<div className='container-fluid' style={{ marginTop: "20px" }}>
 					<div className='panel panel-primary'>
 						<div className='panel-heading'>
 							<h3>{details.restaurant_name}</h3>
@@ -86,8 +89,8 @@ class Details extends Component {
 								<TabPanel>
 									<h2>{details.contact_number}</h2>
 								</TabPanel>
-								<TabPanel>
-									<h2>Menu</h2>
+								<TabPanel>							
+									<MenuDisplay menudata ={this.state.menuList}/>
 								</TabPanel>
 							</Tabs>
 						</div>
@@ -101,8 +104,10 @@ class Details extends Component {
 	async componentDidMount() {
 		let restId = this.props.match.params.restId;
 		let response = await axios.get(`${url}/${restId}`);
+		let menuData = await axios.get(`${menu}/${restId}`);
+		// console.log(menuData.data);		
 		// console.log(response.data);
-		this.setState({ details: response.data[0] });
+		this.setState({ details: response.data[0], menuList:menuData.data });
 	}
 }
 export default Details;
