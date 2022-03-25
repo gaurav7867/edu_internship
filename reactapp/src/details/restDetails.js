@@ -10,15 +10,36 @@ const url = "https://zomoapi.herokuapp.com/details";
 const menu = "https://zomoapi.herokuapp.com/menu";
 
 class Details extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 
 		this.state = {
 			details: " ",
-			menuList: ""
+			menuList: "",
+			userItems:""
 		};
 	}
+    
+	addToCart = (data) => {
+		// sessionStorage.setItem("menu" , this.OrderId);
+		// sessionStorage.setItem("restId" , this.props.restId);
+		console.log(" Data in Cart", data);
+		this.setState({userItems:data})
+
+	}
+
+	proceed = () => {
+		sessionStorage.setItem("menu" , this.state.userItems);
+		// sessionStorage.setItem("restId" , this.props.match.params.restId);
+
+		this.props.history.push(`/placeOrder/${this.state.details.restaurant_name}`)
+
+
+	}
+    
+
 	render() {
+		console.log("RestDetails State" ,this.props)
 		let details = this.state.details;
 		// let {details} = this.state;
 		return (
@@ -90,9 +111,12 @@ class Details extends Component {
 									<h2>{details.contact_number}</h2>
 								</TabPanel>
 								<TabPanel>							
-									<MenuDisplay menudata ={this.state.menuList}/>
+									<MenuDisplay menuData ={this.state.menuList}									
+										finalOrder = {(data)=>{this.addToCart(data)}}
+									/>
 								</TabPanel>
 							</Tabs>
+							<button className="btn btn-success my-5" onClick={this.proceed}>Proceed Next</button>
 						</div>
 					</div>
 				</div>
