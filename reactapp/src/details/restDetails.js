@@ -18,28 +18,21 @@ class Details extends Component {
 			menuList: "",
 			userItems:""
 		};
-	}
-    
+	} 
 	addToCart = (data) => {
 		// sessionStorage.setItem("menu" , this.OrderId);
 		// sessionStorage.setItem("restId" , this.props.restId);
-		console.log(" Data in Cart", data);
+		// console.log(" Data in Cart", data);
 		this.setState({userItems:data})
 
 	}
-
 	proceed = () => {
 		sessionStorage.setItem("menu" , this.state.userItems);
-		// sessionStorage.setItem("restId" , this.props.match.params.restId);
-
 		this.props.history.push(`/placeOrder/${this.state.details.restaurant_name}`)
-
-
 	}
     
-
 	render() {
-		console.log("RestDetails State" ,this.props)
+		// console.log("RestDetails State" ,this.props)
 		let details = this.state.details;
 		// let {details} = this.state;
 		return (

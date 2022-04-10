@@ -1,8 +1,8 @@
 
-.listingDisplay{
+/* .listingDisplay{
     margin-left: -12%;
     margin-top: -5%;
-}
+} */
 #social{
     display: inline-block;
     margin-left:75%;
@@ -18,6 +18,7 @@
     width:20%;
     float: left;
     border: 5px solid gray;
+    /* margin-top: 50px; */
 }
 #content{
     width:70%;
