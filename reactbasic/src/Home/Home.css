@@ -1,0 +1,5 @@
+#main {
+    @media (max-width: 468px) and (min-width: 320px) {
+      height: 100vh;
+    }
+}
